@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/** Fuentes */
+@font-face{
+    font-family: Raleway;
+    src: url(./fonts/Raleway-VariableFont_wght.ttf);}
+
+/** caja */
+.caja{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/** Texto */
+h1{
+    text-align: center;
+    margin: 20px;
+    font-family: Raleway;
+}
+
+/** Header */
+.menu{
+    margin: 50px auto 25px auto;
+    overflow: auto;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.menu > .menu1{
+    padding: 20px;
+    text-decoration: none;
+    float:left;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+/** Imagen portada */
+.portada{
+    width: auto;
+    position: bl   o;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/** Caja2 */
+.caja2{
+    column-count: 3;
+}
+
+/** Texto gordo */
+.img1{
+    display: flex;
+    ;
+}
+
+.texto{
+    text-align: justify;
+    margin: auto;
+    display: block;
+}
+
+/** Cita */
+.cita{
+    color: grey;
+    text-align: center;
+
+}
+
+/** RECETAS */
+b{
+    margin: 50px;
+}
+.recetas {
+    column-count: 4;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #cccb53;
+}
+.receta-head{
+    margin: 10px;
+    font-size: 24px;
+}
+.recetas-gris{
+    color:grey;
+    margin: 5px;
+}
+
+/** Footer */
+footer {
+    background: black;
+    color: white;
+    width: 100%;
+    bottom: 0px;
+    padding: 1.3em;
+    text-align: center;
+}
+
+@media{
+    width: 600px;
+    
+}
